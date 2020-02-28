@@ -1,95 +1,119 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Matti Sippola : ">
+    <head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>Matti Sippola</title>
-  </head>
+        <title>Portfolio</title>
+        <meta name="description" content="">
 
-  <body>
+        <!-- The compiled CSS file -->
+        <link rel="stylesheet" href="css/production.css">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/MasaSip">View on GitHub</a>
+        <!-- Web fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
 
-          <h1 id="project_title">Matti Sippola</h1>
-          <h2 id="project_tagline"></h2>
+        <!-- favicon.ico. Place these in the root directory. -->
+        <link rel="shortcut icon" href="favicon.ico">
 
-        </header>
+    </head>
+
+    <body class="has-animations">
+
+    <!-- Licensed under: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/ -->
+    <!-- Credits: https://www.eatapapaya.com/chippewa/ -->
+    <!-- Header -->
+    <header class="pt2 pb1 align--center">
+        <div class="container">
+            <p>Matti Sippola</p>
+            <h1>Portfolio</h1>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <main>
+
+        <div class="container">
+
+            <!-- Info -->
+            <section class="grid-row grid-row--center">
+
+                <div class="grid-column span-half pt3 pb3 mobile-m order-1 reveal-on-scroll is-revealing">
+                    <div class="relative">
+                        <img class="info-image relative z2" src="img/roihu.png" alt="Roihu">
+                        <div class="pattern pattern--left-down absolute z1"></div>
+                    </div>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-2">
+                    <h3>Web development for the scout camp Roihu</h3>
+                    <p>I was part of a team of Digital Services, volunteering for one and a half years to create websites, a procurement system and a participant
+                        register for national scout camp Roihu 2016. My main focus was at full-stack development of the participant register. The project improved
+                        my skills on Node.js + React development and use of modern Agile development practices. The camp brought together 17,000 participants in July 2016.
+                    </p><a href="https://github.com/partio-scout/reki">View the project on Github</a>
+                </div>
+
+                <div class="grid-column span-half pt3 pb3 mobile-m order-4">
+                    <h3>Statistical modeling with R</h3>
+                    <p>A linear difference model explains total consumption of a national economy as a function of total income and inflations.
+                        Differences in income and inflation are used as independent variables because in a ordinary regression model residuals were found to
+                        be autocorrelated. That indicates the data contains information not being considered in the model.</p>
+                    <p></p><a href="https://github.com/MasaSip/macroeconomic-model">View the source on Github</a>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-3 reveal-on-scroll is-revealing">
+                    <div class="relative">
+                        <img class="info-image relative z2" src="img/r-prog.png" alt="R programming">
+                        <div class="pattern pattern--right-middle absolute z1"></div>
+                    </div>
+                </div>
+
+                <div class="grid-column span-half pt3 pb3 mobile-m order-5 reveal-on-scroll is-revealing">
+                    <div class="relative">
+                        <img class="info-image relative z2" src="img/polijazz-site.jpeg" alt="Polijazz">
+                        <div class="pattern pattern--left-up absolute z1"></div>
+                    </div>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-6">
+                    <h3>Wordpress websites for a dance association Polijazz</h3>
+                    <p>I renovated the websites of student association Polijazz ry to use Wordpress CMS and a custom domain polijazz.fi in 2019.
+                        The process included designing the structure, customizing Divi theme and content production in both Finnish and English.
+                        The project improved my skills on content design, marketing and Wordpress usage.</p>
+                    Visit us at <a href="http://polijazz.fi/">polijazz.fi</a>
+                </div>
+
+                <div class="grid-column span-half pt3 pb3 mobile-m order-8">
+                    <h3>A 2D platform game with Java</h3>
+                    <p>I developed the idea and implemented it as a course project with Slick2D library in 2013. The result was a well-functioning desktop platform game with MVC architecture. During the project I learned about software development, working independently and using external libraries. The visuals used in the game are drawn by Sonja Kiiveri.</p>
+                    <a href="https://github.com/MasaSip/Studio1-Projekti">View the source on Github</a>
+                </div>
+                <div class="grid-column span-half pt3 pb3 mobile-m order-7 reveal-on-scroll is-revealing">
+                    <div class="relative">
+                        <img class="info-image relative z2" src="img/Hamis.jpeg" alt="Hamis">
+                        <div class="pattern pattern--right-down absolute z1"></div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+  <section class="bg--secondary-color pt3 pb3">
+    <div class="container">
+        <div class="mb2 align--center">
+            <p class="h2">Find out more</p>
+            <a href="https://github.com/MasaSip/">Github.com/MasaSip</a>
+        </div>
     </div>
+</section>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h2>
-<a id="portfolio" class="anchor" href="#portfolio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Portfolio</h2>
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-<p>The projects below demonstrate my works in:</p>
+    <!-- The compiled JavaScript file -->
+    <script src="js/production.js"></script>
 
-<ul>
-<li><a href="http://masasip.github.io/#website-of-kantvikin-tulentekija%CC%88t-ry">Wordpress</a></li>
-<li><a href="http://masasip.github.io/#statistical-modelling">Statistical modelling</a></li>
-<li><a href="http://masasip.github.io/#user-interfaces-and-usability">User centered design</a></li>
-<li><a href="http://masasip.github.io/#web-development-and-digital-media">Web development</a></li>
-<li><a href="http://masasip.github.io/#java-project---a-2d-platform-game">Java programming</a></li>
-</ul>
-
-<h3>
-<a id="website-of-kantvikin-tulentekijät-ry" class="anchor" href="#website-of-kantvikin-tulentekija%CC%88t-ry" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Website of Kantvikin Tulentekijät ry</h3>
-
-<p>I renovated the websites of our local scout troop into a Wordpress site. The process included defining the main users, their goals, collecting the content and customising the CSS of existing theme. As a result of reform, scouting in Kantvik is better known and approachable. We became the number one search result with "partio Kantvik" and fourth on "partio Kirkkonummi".
-<img src="https://raw.githubusercontent.com/MasaSip/masasip.github.io/master/images/KaTu.jpeg" alt="Websites of Kantvikin Tulentekijat ry"></p>
-
-<h3>
-<a id="statistical-modelling" class="anchor" href="#statistical-modelling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Statistical modeling - a course exercise</h3>
-
-<p>A linear difference model explains total consumption of a national economy as a function of total income and inflations. Differences in income and inflation are used as independent variables because in a ordinary regression model residuals were found to be autocorrelated. That indicates the data contains information not being considered in the model. The R source code can be found at <a href="https://github.com/MasaSip/macroeconomic-model">this repository.</a>
-<img src="https://raw.githubusercontent.com/MasaSip/masasip.github.io/master/images/r-prog.png" alt="A statistical model for national economy"></p>
-
-<h3>
-<a id="user-interfaces-and-usability" class="anchor" href="#user-interfaces-and-usability" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>User interfaces and usability</h3>
-
-<p>At this course we learned about user centered design process and applied the knowledge in a group work. Our group choose <a href="https://aalto.sharetribe.com">Aalto Sharetribe.</a> We evaluated the usability of the service using Nielsen’s heuristics, interviewed four users of the service and finally created a new feature, advanced search with notifications, to fulfil the goals of the users. The new feature was demonstrated using storyboards and Lo-Fi prototypes.
-<img src="https://raw.githubusercontent.com/MasaSip/masasip.github.io/master/images/storyboard.jpeg" alt="A Storyboard"></p>
-
-<h3>
-<a id="web-development-and-digital-media" class="anchor" href="#web-development-and-digital-media" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web development and digital media</h3>
-
-<p>During Studio 2 course I learned about HTML, CSS, JavaScript and Photoshop. We created a visual campaign with a poster, website and a game for consolidation of municipalities.
-<img src="https://raw.githubusercontent.com/MasaSip/masasip.github.io/master/images/studio2.jpeg" alt="A web development project"></p>
-
-<h3>
-<a id="java-project---a-2d-platform-game" class="anchor" href="#java-project---a-2d-platform-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java project - A 2D platform game</h3>
-
-<p>This project was the final exercise at Studio 1 programming course for freshmen. The beginning was development of ideas, after that choosing Slick2D library to use and planning the MVC architecture of the game. During the project I learned about software development, working independently and using external libraries. The visuals used in the game are drawn by Sonja Kiiveri
-<img src="https://raw.githubusercontent.com/MasaSip/masasip.github.io/master/images/Hamis.jpeg" alt="A 2D platform game"></p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-73311542-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
+    </main></body>
 </html>
+
